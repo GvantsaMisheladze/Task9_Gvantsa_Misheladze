@@ -7,7 +7,7 @@ public class Task1 {
         colors.add("Green");
         colors.add("Blue");
 
-        System.out.println("Colors: " + colors);
+        System.out.println(colors);
         System.out.println("Second color: " + colors.get(1));
         colors.remove(0);
         System.out.println("After removal: " + colors);
